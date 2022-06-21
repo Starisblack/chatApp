@@ -20,10 +20,12 @@
 			}).then(response => {
 				CometChatWidget.launch({
 					"widgetID": "aa14eae5-4463-4fd9-824e-9ba03ebc4dea",
+          "docked": "true",
+          "alignment": "left",
 					"target": "#cometchat",
 					"roundedCorners": "true",
-					"height": "600px",
-					"width": "800px",
+					"min-height": "800px",
+					"min-width": "375px",
 					"defaultID": 'superhero1', //default UID (user) or GUID (group) to show,
 					"defaultType": 'user' //user or group
 				});
